@@ -13,6 +13,8 @@ const App = () => {
 
 	const changeLanguage = () => {
 		setLang( lang => !lang );
+		document.querySelector( '.lyceum-input' ).value = '';
+		setState( undefined );
 	}
 
 	const inputHandler = e => {
@@ -38,7 +40,7 @@ const App = () => {
 			<img src="./heading.png" alt="lyceum rok" />
 			<div>
 				<h1>Lyceum of Wisdom</h1>
-				<Toggle update={ changeLanguage } />
+				<Toggle update={ changeLanguage } value={ lang } />
 				<Input update={ inputHandler } />
 				<QaBlock items={ state } />
 			</div>
