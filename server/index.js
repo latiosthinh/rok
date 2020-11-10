@@ -5,7 +5,7 @@ const http = require( 'http' );
 const hostname = `${ process.env.HOST_NAME }`;
 const port = process.env.PORT;
 
-const { dataHandler } = require( './src/dataHandler' );
+const { dataHandler } = require( './dataHandler' );
 
 const server = http.createServer( ( req, res ) => {
 	res.statusCode = 200;
@@ -19,6 +19,3 @@ const server = http.createServer( ( req, res ) => {
 server.listen( port, hostname, () => {
 	console.log( `Server running at http://${hostname}:${port}/` );
 } );
-
-
-
