@@ -7,7 +7,7 @@ const dataVie = require( './lyceum-vie.json' );
 
 const App = () => {
 	const [ state, setState ] = useState( undefined );
-	const [ lang, setLang ] = useState( true );
+	const [ lang, setLang ] = useState( false );
 
 	const _data = lang ? data : dataVie;
 
