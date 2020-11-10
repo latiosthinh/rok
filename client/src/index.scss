@@ -37,9 +37,19 @@ body {
 
 	> img {
 		width: 80px;
-		position: absolute;
-		top: 10px;
-		left: 0;
+		
+		@media all and (min-width: 992px) {
+			position: absolute;
+			top: 10px;
+			left: 0;
+		}
+
+		@media all and (max-width: 991px) {
+			width: 60px;
+			top: 30px;
+			display: block;
+			margin: 20px auto 0;
+		}
 	}
 
 	&-input {
@@ -90,9 +100,13 @@ body {
 
 h1 {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 	color: var(--color-bg);
+
+	@media all and (min-width:992px) {
+		margin-top: 40px;
+	}
 }
 
 .toggle {
