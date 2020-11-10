@@ -1,6 +1,6 @@
 const Input = ( { update } ) => {
 	return ( 
-		<input type="text" onChange={ update } />
+		<input className="lyceum-input" placeholder="Enter some keywords ..." type="text" onChange={ update } />
 	)
 }
 

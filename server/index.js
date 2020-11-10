@@ -6,6 +6,7 @@ const hostname = `${ process.env.HOST_NAME }`;
 const port = process.env.PORT;
 
 const { dataHandler } = require( './dataHandler' );
+const { dataHandlerVie } = require( './dataHandlerVie' );
 
 const server = http.createServer( ( req, res ) => {
 	res.statusCode = 200;
@@ -13,7 +14,8 @@ const server = http.createServer( ( req, res ) => {
 	res.end( 'Thomas I am' );
 	// getData();
 
-	dataHandler();
+	// dataHandler();
+	// dataHandlerVie();
 } );
 
 server.listen( port, hostname, () => {
