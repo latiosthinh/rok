@@ -166,10 +166,13 @@ footer {
 	left: 0;
 	width: 100%;
 	padding: 0 15px;
-	background: #ffffff;
+	background: var(--color-bg);
 
 	p {
+		padding: 5px 0;
 		text-align: center;
+		color: #fff;
+		font-size: 12px;
 	}
 
 	a {
