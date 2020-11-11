@@ -1,13 +1,12 @@
 const Toggle = ( { update, value } ) => {
 	return (
-		<div className="toggle">
-			<button key="eng-btn" id="eng-btn">ENG</button>
+		<label className="toggle">
+			<span key="eng-btn" id="eng-btn">ENG</span>
 
 			<input id="lyceum-lang" type="checkbox" onChange={ update } checked={ ! value } />
-			<label htmlFor="lyceum-lang"></label>
-
-			<button key="vie-btn" id="vie-btn">VIE</button>
-		</div>
+			<span className="checkbox-bg"></span>
+			<span key="vie-btn" id="vie-btn">VIE</span>
+		</label>
 	)
 }
 
