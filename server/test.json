@@ -1,0 +1,217 @@
+{
+	type: 'tag',
+	name: 'td',
+	namespace: 'http://www.w3.org/1999/xhtml',
+	attribs: [Object: null prototype] {},
+	'x-attribsNamespace': [Object: null prototype] {},
+	'x-attribsPrefix': [Object: null prototype] {},
+	children: [
+	  {
+		type: 'text',
+		data: 'Which astronomer proposed the heliocentric theory in the 16th century?',
+		parent: [Circular],
+		prev: null,
+		next: null
+	  }
+	],
+	parent: {
+	  type: 'tag',
+	  name: 'tr',
+	  namespace: 'http://www.w3.org/1999/xhtml',
+	  attribs: [Object: null prototype] {
+		'data-row_id': '1182',
+		class: 'ninja_table_row_0 nt_row_id_1182'
+	  },
+	  'x-attribsNamespace': [Object: null prototype] {
+		'data-row_id': undefined,
+		class: undefined
+	  },
+	  'x-attribsPrefix': [Object: null prototype] {
+		'data-row_id': undefined,
+		class: undefined
+	  },
+	  children: [ [Object], [Circular], [Object], [Object] ],
+	  parent: {
+		type: 'tag',
+		name: 'tbody',
+		namespace: 'http://www.w3.org/1999/xhtml',
+		attribs: [Object: null prototype] {},
+		'x-attribsNamespace': [Object: null prototype] {},
+		'x-attribsPrefix': [Object: null prototype] {},
+		children: [Array],
+		parent: [Object],
+		prev: [Object],
+		next: [Object]
+	  },
+	  prev: {
+		type: 'text',
+		data: '\n\n        ',
+		parent: [Object],
+		prev: null,
+		next: [Circular]
+	  },
+	  next: {
+		type: 'text',
+		data: '\n            ',
+		parent: [Object],
+		prev: [Circular],
+		next: [Object]
+	  }
+	},
+	prev: {
+	  type: 'text',
+	  data: '\n            ',
+	  parent: {
+		type: 'tag',
+		name: 'tr',
+		namespace: 'http://www.w3.org/1999/xhtml',
+		attribs: [Object: null prototype],
+		'x-attribsNamespace': [Object: null prototype],
+		'x-attribsPrefix': [Object: null prototype],
+		children: [Array],
+		parent: [Object],
+		prev: [Object],
+		next: [Object]
+	  },
+	  prev: null,
+	  next: [Circular]
+	},
+	next: {
+	  type: 'tag',
+	  name: 'td',
+	  namespace: 'http://www.w3.org/1999/xhtml',
+	  attribs: [Object: null prototype] {},
+	  'x-attribsNamespace': [Object: null prototype] {},
+	  'x-attribsPrefix': [Object: null prototype] {},
+	  children: [ [Object] ],
+	  parent: {
+		type: 'tag',
+		name: 'tr',
+		namespace: 'http://www.w3.org/1999/xhtml',
+		attribs: [Object: null prototype],
+		'x-attribsNamespace': [Object: null prototype],
+		'x-attribsPrefix': [Object: null prototype],
+		children: [Array],
+		parent: [Object],
+		prev: [Object],
+		next: [Object]
+	  },
+	  prev: [Circular],
+	  next: {
+		type: 'text',
+		data: '        ',
+		parent: [Object],
+		prev: [Circular],
+		next: null
+	  }
+	}
+  }
+  {
+	type: 'tag',
+	name: 'td',
+	namespace: 'http://www.w3.org/1999/xhtml',
+	attribs: [Object: null prototype] {},
+	'x-attribsNamespace': [Object: null prototype] {},
+	'x-attribsPrefix': [Object: null prototype] {},
+	children: [
+	  {
+		type: 'text',
+		data: 'Which astronomer proposed the heliocentric theory in the 16th century?',
+		parent: [Circular],
+		prev: null,
+		next: null
+	  }
+	],
+	parent: {
+	  type: 'tag',
+	  name: 'tr',
+	  namespace: 'http://www.w3.org/1999/xhtml',
+	  attribs: [Object: null prototype] {
+		'data-row_id': '1182',
+		class: 'ninja_table_row_0 nt_row_id_1182'
+	  },
+	  'x-attribsNamespace': [Object: null prototype] {
+		'data-row_id': undefined,
+		class: undefined
+	  },
+	  'x-attribsPrefix': [Object: null prototype] {
+		'data-row_id': undefined,
+		class: undefined
+	  },
+	  children: [ [Object], [Circular], [Object], [Object] ],
+	  parent: {
+		type: 'tag',
+		name: 'tbody',
+		namespace: 'http://www.w3.org/1999/xhtml',
+		attribs: [Object: null prototype] {},
+		'x-attribsNamespace': [Object: null prototype] {},
+		'x-attribsPrefix': [Object: null prototype] {},
+		children: [Array],
+		parent: [Object],
+		prev: [Object],
+		next: [Object]
+	  },
+	  prev: {
+		type: 'text',
+		data: '\n\n        ',
+		parent: [Object],
+		prev: null,
+		next: [Circular]
+	  },
+	  next: {
+		type: 'text',
+		data: '\n            ',
+		parent: [Object],
+		prev: [Circular],
+		next: [Object]
+	  }
+	},
+	prev: {
+	  type: 'text',
+	  data: '\n            ',
+	  parent: {
+		type: 'tag',
+		name: 'tr',
+		namespace: 'http://www.w3.org/1999/xhtml',
+		attribs: [Object: null prototype],
+		'x-attribsNamespace': [Object: null prototype],
+		'x-attribsPrefix': [Object: null prototype],
+		children: [Array],
+		parent: [Object],
+		prev: [Object],
+		next: [Object]
+	  },
+	  prev: null,
+	  next: [Circular]
+	},
+	next: {
+	  type: 'tag',
+	  name: 'td',
+	  namespace: 'http://www.w3.org/1999/xhtml',
+	  attribs: [Object: null prototype] {},
+	  'x-attribsNamespace': [Object: null prototype] {},
+	  'x-attribsPrefix': [Object: null prototype] {},
+	  children: [ [Object] ],
+	  parent: {
+		type: 'tag',
+		name: 'tr',
+		namespace: 'http://www.w3.org/1999/xhtml',
+		attribs: [Object: null prototype],
+		'x-attribsNamespace': [Object: null prototype],
+		'x-attribsPrefix': [Object: null prototype],
+		children: [Array],
+		parent: [Object],
+		prev: [Object],
+		next: [Object]
+	  },
+	  prev: [Circular],
+	  next: {
+		type: 'text',
+		data: '        ',
+		parent: [Object],
+		prev: [Circular],
+		next: null
+	  }
+	}
+  }
+  

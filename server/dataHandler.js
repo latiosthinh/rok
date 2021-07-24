@@ -13,10 +13,10 @@ const dataHandler = async () => {
 	await axios.get( url )
 		.then( ( html ) => {
 			$( '#footable_4551 tbody tr', html.data ).each( ( i, el ) => {
-				if ( el.children[0].children[0] ) {
+				if ( el.children[1].children[0] ) {
 					let QnA = { 
-						question: el.children[0].children[0].data,
-						answer  : el.children[1].children[0] ? el.children[1].children[0].data : ''
+						question: el.children[1].children[0].data,
+						answer  : el.children[2].children[0] ? el.children[2].children[0].data : ''
 					}
 
 					lyceum.push( QnA );
