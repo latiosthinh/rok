@@ -1,6 +1,10 @@
-const Input = ( { update } ) => {
+const Input = ( { value, update } ) => {
 	return ( 
-		<input className="lyceum-input" placeholder="Enter some keywords ..." type="text" onChange={ update } />
+		<input className="lyceum-input"
+				placeholder="Enter some keywords ... ( press ''esc'' to clear )"
+				type="text"
+				value={ value }
+				onChange={ update } />
 	)
 }
 
